@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  📫 <code>jiaxiangjin213@gmail.com</code>
+  📫 <code>Jiaxiangjin213@gmail.com</code>
 </p>
 
 ---
