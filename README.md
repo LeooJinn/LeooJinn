@@ -7,8 +7,12 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/LeooJinn?tab=repositories"><img src="https://img.shields.io/badge/-Projects-E0584B?style=for-the-badge&logo=github&logoColor=white" alt="Projects" /></a>
-  <a href="mailto:jiaxiangjin213@gmail.com"><img src="https://img.shields.io/badge/-Email-35566B?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/LeooJinn/Sonder"><img src="https://img.shields.io/badge/Sonder-E0584B?style=for-the-badge&logo=github&logoColor=white" alt="Sonder" /></a>
+  <a href="https://github.com/LeooJinn?tab=repositories"><img src="https://img.shields.io/badge/All_repos-35566B?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" /></a>
+</p>
+
+<p align="center">
+  📫 <code>jiaxiangjin213@gmail.com</code>
 </p>
 
 ---
@@ -80,12 +84,7 @@ Came from C++, so the things that took rewiring: async/await instead of top-to-b
 ### 📊 Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=LeooJinn&show_icons=true&hide_border=true&bg_color=00000000&title_color=E0584B&icon_color=E0584B&text_color=8D9BA8" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LeooJinn&layout=compact&hide_border=true&bg_color=00000000&title_color=E0584B&text_color=8D9BA8" alt="Top languages" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=LeooJinn&hide_border=true&background=00000000&stroke=2C3742&ring=E0584B&fire=E0584B&currStreakLabel=E0584B&sideLabels=8D9BA8&currStreakNum=E6E9EC&sideNums=E6E9EC&dates=5C6B7A" alt="Streak" />
+  <img src="https://streak-stats.demolab.com?user=LeooJinn&hide_border=true&background=00000000&stroke=2C3742&ring=E0584B&fire=E0584B&currStreakLabel=E0584B&sideLabels=8D9BA8&currStreakNum=E6E9EC&sideNums=E6E9EC&dates=5C6B7A" alt="Contribution streak" />
 </p>
 
 ---
