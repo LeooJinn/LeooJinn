@@ -68,7 +68,7 @@ It includes:
 - GitHub Actions CI on Ubuntu and macOS
 - Reproducible multi-size benchmark reports
 
-On a real-corpus run over **5,950 English Wikipedia articles (74.5 MB)**, four-worker indexing completed in **496 ms** versus **775 ms** sequentially. Indexed query latency measured **0.005 ms p50 / 0.028 ms p95**, with a 141 MB persistent index. The benchmark also surfaced a real optimization target: peak RSS was about 1.04 GB, so the next systems improvement is reducing the in-memory footprint.
+On a real-corpus run over **5,950 English Wikipedia articles (74.5 MB)**, worker-local indexing reduced peak RSS from **1.04 GB to 892 MB (14.6% lower)**. Parallel build improved from **496 ms to 434 ms**, while indexed query latency measured **0.005 ms p50 / 0.026 ms p95**. The persistent index remained about 141 MB; the next systems target is separating document bodies from index metadata for lazy detail loading.
 
 **Stack:** C++17 · CMake · SQLite · libcurl · multithreading · GitHub Actions
 
