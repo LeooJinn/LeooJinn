@@ -68,7 +68,7 @@ It includes:
 - GitHub Actions CI on Ubuntu and macOS
 - Reproducible multi-size benchmark reports
 
-On the benchmark corpus, four-worker indexing measured approximately **3.5× faster construction** than sequential indexing, while indexed queries completed in sub-millisecond time on a 2,000-document synthetic corpus.
+On a real-corpus run over **5,950 English Wikipedia articles (74.5 MB)**, four-worker indexing completed in **496 ms** versus **775 ms** sequentially. Indexed query latency measured **0.005 ms p50 / 0.028 ms p95**, with a 141 MB persistent index. The benchmark also surfaced a real optimization target: peak RSS was about 1.04 GB, so the next systems improvement is reducing the in-memory footprint.
 
 **Stack:** C++17 · CMake · SQLite · libcurl · multithreading · GitHub Actions
 
