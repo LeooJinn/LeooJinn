@@ -14,7 +14,17 @@
 
 <p align="center">
   📫 <a href="mailto:Jiaxiangjin213@gmail.com">Jiaxiangjin213@gmail.com</a>
-  · <a href="https://www.linkedin.com/in/leo-jin-65246a220/">LinkedIn</a>
+  · <a href="https://www.linkedin.com/in/leoojin/">LinkedIn</a>
+</p>
+
+<p align="center">
+  <a href="https://imsonder.com"><img src="https://raw.githubusercontent.com/LeooJinn/Sonder/main/docs/assets/sonder-welcome.jpg" alt="Sonder welcome screen" width="48%" /></a>
+  <a href="https://github.com/LeooJinn/cpp-search-engine"><img src="https://raw.githubusercontent.com/LeooJinn/cpp-search-engine/main/docs/assets/search-ui-result.jpg" alt="C++ Search Engine browser UI" width="48%" /></a>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LeooJinn/Sonder/main/docs/architecture/sonder-architecture.svg" alt="Sonder architecture" width="48%" />
+  <img src="https://raw.githubusercontent.com/LeooJinn/cpp-search-engine/main/docs/architecture/search-engine-architecture.svg" alt="C++ Search Engine architecture" width="48%" />
 </p>
 
 ---
