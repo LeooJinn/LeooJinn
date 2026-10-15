@@ -24,7 +24,7 @@
 </p>
 
 <p align="center">
-  <a href="https://imsonder.com"><img src="https://raw.githubusercontent.com/LeooJinn/Sonder/main/docs/assets/sonder-welcome.jpg" alt="Sonder welcome screen" width="48%" /></a>
+  <a href="https://imsonder.com"><img src="https://raw.githubusercontent.com/LeooJinn/Sonder/main/docs/assets/sonder-welcome.jpg?v=2" alt="Sonder welcome screen" width="48%" /></a>
   <a href="https://github.com/LeooJinn/cpp-search-engine"><img src="https://raw.githubusercontent.com/LeooJinn/cpp-search-engine/main/docs/assets/search-ui-result.jpg" alt="C++ Search Engine browser UI" width="48%" /></a>
 </p>
 
