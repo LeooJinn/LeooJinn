@@ -7,6 +7,7 @@
 </p>
 
 <p align="center">
+  <a href="https://jiaxiangjin.com"><img src="https://img.shields.io/badge/Portfolio-jiaxiangjin.com-2F4B8F?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio website" /></a>
   <a href="https://github.com/LeooJinn/Sonder"><img src="https://img.shields.io/badge/Sonder-E0584B?style=for-the-badge&logo=github&logoColor=white" alt="Sonder" /></a>
   <a href="https://github.com/LeooJinn/cpp-search-engine"><img src="https://img.shields.io/badge/C%2B%2B%20Search%20Engine-35566B?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++ Search Engine" /></a>
   <a href="https://github.com/LeooJinn?tab=repositories"><img src="https://img.shields.io/badge/All_repos-66734C?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" /></a>
@@ -18,6 +19,11 @@
 </p>
 
 <p align="center">
+  <a href="https://jiaxiangjin.com"><img src="https://raw.githubusercontent.com/LeooJinn/LeooJinn.github.io/main/docs/assets/portfolio-hero.jpg" alt="Portfolio website home page" width="48%" /></a>
+  <a href="https://jiaxiangjin.com/#work"><img src="https://raw.githubusercontent.com/LeooJinn/LeooJinn.github.io/main/docs/assets/portfolio-work.jpg" alt="Portfolio website work section" width="48%" /></a>
+</p>
+
+<p align="center">
   <a href="https://imsonder.com"><img src="https://raw.githubusercontent.com/LeooJinn/Sonder/main/docs/assets/sonder-welcome.jpg" alt="Sonder welcome screen" width="48%" /></a>
   <a href="https://github.com/LeooJinn/cpp-search-engine"><img src="https://raw.githubusercontent.com/LeooJinn/cpp-search-engine/main/docs/assets/search-ui-result.jpg" alt="C++ Search Engine browser UI" width="48%" /></a>
 </p>
@@ -26,6 +32,16 @@
   <img src="https://raw.githubusercontent.com/LeooJinn/Sonder/main/docs/architecture/sonder-architecture.svg" alt="Sonder architecture" width="48%" />
   <img src="https://raw.githubusercontent.com/LeooJinn/cpp-search-engine/main/docs/architecture/search-engine-architecture.svg" alt="C++ Search Engine architecture" width="48%" />
 </p>
+
+---
+
+### 🌐 Portfolio Website
+
+**[jiaxiangjin.com](https://jiaxiangjin.com)** is my portfolio website: the best place to see my selected projects, experience, and resume in one place.
+
+It's a dependency-free static site (plain HTML, CSS, and JavaScript) hosted on GitHub Pages, with sections for selected work, an interactive lab, experience, and a one-page resume. The source is in [LeooJinn.github.io](https://github.com/LeooJinn/LeooJinn.github.io).
+
+**Stack:** HTML · CSS · JavaScript · GitHub Pages
 
 ---
 
