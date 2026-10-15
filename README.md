@@ -19,8 +19,8 @@
 </p>
 
 <p align="center">
-  <a href="https://jiaxiangjin.com"><img src="https://raw.githubusercontent.com/LeooJinn/LeooJinn.github.io/main/docs/assets/portfolio-hero.jpg" alt="Portfolio website home page" width="48%" /></a>
-  <a href="https://jiaxiangjin.com/#work"><img src="https://raw.githubusercontent.com/LeooJinn/LeooJinn.github.io/main/docs/assets/portfolio-work.jpg" alt="Portfolio website work section" width="48%" /></a>
+  <a href="https://jiaxiangjin.com"><img src="https://raw.githubusercontent.com/LeooJinn/LeooJinn.github.io/main/docs/assets/portfolio-hero.jpg?v=2" alt="Portfolio website home page" width="48%" /></a>
+  <a href="https://jiaxiangjin.com/#work"><img src="https://raw.githubusercontent.com/LeooJinn/LeooJinn.github.io/main/docs/assets/portfolio-work.jpg?v=2" alt="Portfolio website work section" width="48%" /></a>
 </p>
 
 <p align="center">
