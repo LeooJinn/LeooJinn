@@ -105,7 +105,7 @@ The repository also contains an isolated Python sidecar using NumPy and Sentence
 **[Rocket Landing RL](https://github.com/LeooJinn/rocket-landing-rl)** is a from-scratch PyTorch PPO agent that learns to land a simulated 2D rocket on a pad. It sees seven numbers (position, velocity, tilt, spin, fuel), picks one of four thrusters each step, and learns from a shaped reward alone.
 
 <p align="center">
-  <a href="https://jiaxiangjin.com/rocket-landing-rl/"><img src="https://raw.githubusercontent.com/LeooJinn/rocket-landing-rl/main/docs/demo.gif" alt="The same start flown by an early, a middle and the final checkpoint of one training run: two crashes after running out of fuel, then a landing" width="96%" /></a>
+  <a href="https://jiaxiangjin.com/rocket-landing-rl/"><img src="https://raw.githubusercontent.com/LeooJinn/rocket-landing-rl/main/docs/demo.gif" alt="The same start flown by an early, a middle and the final checkpoint of one training run: the early one crashes after running out of fuel, the middle one lands slowly, the final one lands in about half the time with more fuel left" width="96%" /></a>
 </p>
 
 **[Watch the trained agent →](https://jiaxiangjin.com/rocket-landing-rl/)** (recorded runs, no server needed)
@@ -114,12 +114,12 @@ It includes:
 
 - A deterministic NumPy simulator behind the Gymnasium API, and PPO written from scratch (no RL library)
 - A held-out evaluation protocol that checks test seeds never overlap training, with 95% confidence intervals
-- A hand-written heuristic controller as a baseline (99.6% of held-out landings)
+- A hand-written heuristic controller as a baseline (99.6% of held-out landings), and a fuel-aware reward tested on two independent sets of ten seeds
 - A diagnosis of why training is unstable: late collapses traced to policies running out of fuel
 - A browser replay viewer, with a live mode and a recorded mode on GitHub Pages
 - Over 120 tests and GitHub Actions CI
 
-On 500 unseen starts per seed, **7 of 10 training seeds land 99.8 to 100% of episodes**, matching the baseline; the other 3 do not. Switching from a running observation normalizer to fixed scaling raised mean held-out success from **27.6% to 95.0%** on six seeds. Training is not fully reliable yet, and the repository keeps the failed seeds in the results instead of hiding them.
+With a fuel-aware reward, **19 of 20 training seeds land at least 90% of 500 unseen starts** (mean **98.8%**), against 12 of 20 (70.5%) with the original reward. Fixed observation scaling had already raised mean held-out success from **27.6% to 95.0%** on six seeds, and a diagnosis traced the remaining failures to policies running out of fuel. A couple of seeds are still imperfect, and the repository keeps the failed seeds in the results instead of hiding them.
 
 **Stack:** Python · PyTorch · NumPy · Gymnasium · GitHub Actions · GitHub Pages
 
