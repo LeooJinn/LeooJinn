@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/LeooJinn">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2800&pause=900&color=E0584B&center=true&vCenter=true&width=620&lines=CS+student+in+the+Bay+Area;Building+production+software+and+systems+projects;Building+Sonder+for+car+people;Learning+how+search+systems+work" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2800&pause=900&color=E0584B&center=true&vCenter=true&width=620&lines=CS+student+in+the+Bay+Area;Building+production+software+and+systems+projects;Building+Sonder+for+car+people;Training+RL+agents+to+land+rockets;Learning+how+search+systems+work" alt="Typing SVG" />
   </a>
 </p>
 
@@ -10,6 +10,7 @@
   <a href="https://jiaxiangjin.com"><img src="https://img.shields.io/badge/Portfolio-jiaxiangjin.com-2F4B8F?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio website" /></a>
   <a href="https://github.com/LeooJinn/Sonder"><img src="https://img.shields.io/badge/Sonder-E0584B?style=for-the-badge&logo=github&logoColor=white" alt="Sonder" /></a>
   <a href="https://github.com/LeooJinn/cpp-search-engine"><img src="https://img.shields.io/badge/C%2B%2B%20Search%20Engine-35566B?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++ Search Engine" /></a>
+  <a href="https://github.com/LeooJinn/rocket-landing-rl"><img src="https://img.shields.io/badge/Rocket%20Landing%20RL-5FE3D0?style=for-the-badge&logo=pytorch&logoColor=black" alt="Rocket Landing RL" /></a>
   <a href="https://github.com/LeooJinn?tab=repositories"><img src="https://img.shields.io/badge/All_repos-66734C?style=for-the-badge&logo=github&logoColor=white" alt="Repositories" /></a>
 </p>
 
@@ -99,11 +100,38 @@ The repository also contains an isolated Python sidecar using NumPy and Sentence
 
 ---
 
+### 🚀 Rocket Landing RL
+
+**[Rocket Landing RL](https://github.com/LeooJinn/rocket-landing-rl)** is a from-scratch PyTorch PPO agent that learns to land a simulated 2D rocket on a pad. It sees seven numbers (position, velocity, tilt, spin, fuel), picks one of four thrusters each step, and learns from a shaped reward alone.
+
+<p align="center">
+  <a href="https://jiaxiangjin.com/rocket-landing-rl/"><img src="https://raw.githubusercontent.com/LeooJinn/rocket-landing-rl/main/docs/demo.gif" alt="The same start flown by an early, a middle and the final checkpoint of one training run: two crashes after running out of fuel, then a landing" width="96%" /></a>
+</p>
+
+**[Watch the trained agent →](https://jiaxiangjin.com/rocket-landing-rl/)** (recorded runs, no server needed)
+
+It includes:
+
+- A deterministic NumPy simulator behind the Gymnasium API, and PPO written from scratch (no RL library)
+- A held-out evaluation protocol that checks test seeds never overlap training, with 95% confidence intervals
+- A hand-written heuristic controller as a baseline (99.6% of held-out landings)
+- A diagnosis of why training is unstable: late collapses traced to policies running out of fuel
+- A browser replay viewer, with a live mode and a recorded mode on GitHub Pages
+- Over 120 tests and GitHub Actions CI
+
+On 500 unseen starts per seed, **7 of 10 training seeds land 99.8 to 100% of episodes**, matching the baseline; the other 3 do not. Switching from a running observation normalizer to fixed scaling raised mean held-out success from **27.6% to 95.0%** on six seeds. Training is not fully reliable yet, and the repository keeps the failed seeds in the results instead of hiding them.
+
+**Stack:** Python · PyTorch · NumPy · Gymnasium · GitHub Actions · GitHub Pages
+
+---
+
 ### 🛠 What I build with
 
 <p>
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React Native" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
@@ -125,6 +153,7 @@ I also work as a contract IT Support Technician with **Five Star Networking**, s
 - Building stronger foundations in data structures, algorithms, and systems programming
 - Preparing for software engineering internships
 - Turning projects into measurable, testable systems rather than demos
+- Learning reinforcement learning by building agents from scratch and evaluating them honestly, failed runs included
 - Learning when a simple deterministic solution is better than a more complicated one
 
 ---
